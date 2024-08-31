@@ -33,11 +33,11 @@ header {
 }
 .social,
 .logo {
-  width: 25%;
+  width: 30%;
 }
 
 .menu {
-  width: 50%;
+  width: 100%;
 }
 
 .menu nav a {
@@ -100,12 +100,13 @@ nav a:hover::after {
 
 footer {
   background-color: #fff;
-  position: absolute;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0;
+  position: absolute;
+  margin-top: 75%;
+  
 }
 
 footer img{
@@ -125,4 +126,38 @@ footer h3{
 }
 
 
+.main{
+  display: flex;
+  justify-items: center;  
+}
 
+.card {
+
+  margin: 50px;
+  background-color: #fff;
+  width: 400px;
+  height: 600px;
+  border-radius: 20px;
+
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.card img{
+  margin: 10px;
+  height: 270px;
+  border-radius: 20px;
+ 
+}
+
+.card h1{
+  margin: 10px 10px 10px 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.card p{
+  text-align: left;
+  text-align: justify;
+  margin: 15px;
+  
+}
