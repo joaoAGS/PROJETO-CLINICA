@@ -11,6 +11,7 @@ body {
   background-image: url("#");
   background-size: cover;
   background-repeat: no-repeat;
+  
 }
 
 .conteiner {
@@ -105,7 +106,7 @@ footer {
   align-items: center;
   justify-content: center;
   position: absolute;
-  margin-top: 75%;
+  margin-top: 30vh;
   
 }
 
@@ -132,13 +133,11 @@ footer h3{
 }
 
 .card {
-
   margin: 50px;
   background-color: #fff;
   width: 400px;
   height: 600px;
   border-radius: 20px;
-
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
@@ -153,11 +152,71 @@ footer h3{
   margin: 10px 10px 10px 10px;
   text-align: center;
   font-size: 20px;
+  
 }
 
 .card p{
-  text-align: left;
   text-align: justify;
-  margin: 15px;
+  margin: 10px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.card button{
+  position: relative;
+  align-tracks: 10vh;
+  justify-content: center;
+  font-size: 12px;
+  background-color: #4fa8db;
+  border-radius: 20px;
+  left: 100px;
+  padding: 5px;
+  width: 200px;
+}
+
+.qsomos {
+  margin: 0;
+  width: 1000px;
+  padding: 100px;
+  height: 600px;
+  margin-left: 150px;
+  margin-top: 100px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border-radius: 20px;
+  position: absolute;
   
 }
+
+.qsomos img {
+  height: 500px;
+  width: 400px;
+  border-radius: 20px;
+  position: relative;
+  left: 1000px;
+  margin: 30px;
+  
+}
+.qsomos h1{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.qsomos p{
+  margin-top: 0;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  
+}
+.video{
+  position: relative;
+  left: 1250px;
+  top: 100px;
+}
+
